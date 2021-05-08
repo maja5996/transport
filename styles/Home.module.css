@@ -13,7 +13,7 @@
 }
 
 .callInfo:hover {
-  color: white;
+  color: red;
   -webkit-transition: 1s;
   transition: 1s;
   opacity: 0.8;
