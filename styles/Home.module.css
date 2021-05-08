@@ -12,6 +12,13 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.callInfo:hover {
+  color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 0.8;
+}
+
 .main {
   background-image: url(https://images.unsplash.com/photo-1556830997-36d8a259ed7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80);
   background-position: center;
