@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Nav from "../components/Nav";
 import Main from "../components/Main";
 import Services from "../components/Services";
+import Line from "../components/LineBreak";
 
 export default function Home() {
   return (
@@ -14,6 +14,7 @@ export default function Home() {
       </Head>
       <Nav />
       <Main />
+      <Line />
       <Services />
     </div>
   );

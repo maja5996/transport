@@ -1,22 +1,52 @@
 import styles from "../styles/Home.module.css";
+import Image from "next/image";
 
 const Services = () => {
   return (
     <div className={styles.services}>
-      <div className={styles.service}>
+      {/* <div className={styles.service}>
+        <FaBoxOpen />
         <h4>Prevoz putnika</h4>
+
+        <p>
+          Želite da Vaše putovanje započne sa praga Vaše kuće ili ispred vrata
+          Vaše zgrade u onoliko sati u koliko Vama odgovara? Želite da napravite
+          svoj plan potovanja?
+        </p>
+      </div> */}
+
+      <div className={styles.service}>
+        <Image
+          src="/paketi.jpg"
+          width={700}
+          height={700}
+          className={styles.image}
+        />
+        <div className={styles.overlay}>
+          <div className={styles.text}>Prevoz putnika</div>
+          <div className={styles.description}>
+            Želite da Vaše putovanje započne sa praga Vaše kuće ili ispred vrata
+            Vaše zgrade u onoliko sati u koliko Vama odgovara? Želite da
+            napravite svoj plan potovanja?
+          </div>
+        </div>
       </div>
 
       <div className={styles.service}>
-        <h4>Prevoz paketa</h4>
-      </div>
-
-      <div className={styles.service}>
-        <h4>Selidbe</h4>
-      </div>
-
-      <div className={styles.service}>
-        <h4>Prevoz automobila</h4>
+        <Image
+          src="/paketi.jpg"
+          width={700}
+          height={700}
+          className={styles.image}
+        />
+        <div className={styles.overlay}>
+          <div className={styles.text}>Prevoz paketa</div>
+          <div className={styles.description}>
+            Prevoz paketa i robe kombijem Vam može ponuditi sve prednosti
+            profesionalnog prevoza pošiljki i još više od toga. Mi Vam nudimo
+            brz i bezbedan prevoz Vaših paketa, pisama i pošiljki.
+          </div>
+        </div>
       </div>
     </div>
   );

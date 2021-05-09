@@ -3,8 +3,12 @@
   background-color: #fed03d;
   position: -webkit-sticky;
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
   width: 100%;
-  height: 4em;
+  padding: 28 0;
 }
 
 .callInfo {
@@ -43,10 +47,25 @@
   height: 6em;
 }
 
+.lineBreak {
+  width: 100%;
+  margin-bottom: 10em;
+  padding: 100px 0;
+  background-color: #fed03d;
+}
+
+.lineBreak .line {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 2.5em;
+}
+
 .services {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .services h4 {
@@ -54,6 +73,7 @@
 }
 
 .service {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -64,8 +84,55 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 14px;
-  width: 25%;
-  border: 1px solid black;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 35px;
+  padding: 3px;
+  width: 100%;
+  height: 30em;
+}
+
+.image {
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  background-color: #fed03d;
+}
+
+.service:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: white;
+  font-size: 49px;
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.description {
+  position: absolute;
+  color: white;
+  top: 50%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 27px;
+  text-align: center;
 }
 /*# sourceMappingURL=Home.module.css.map */
