@@ -16,23 +16,40 @@ const Services = () => {
       </div> */}
 
       <div className={styles.service}>
-        <Image
-          src="/paketi.jpg"
-          width={700}
-          height={700}
-          className={styles.image}
-        />
-        <div className={styles.overlay}>
-          <div className={styles.text}>Prevoz putnika</div>
-          <div className={styles.description}>
-            Želite da Vaše putovanje započne sa praga Vaše kuće ili ispred vrata
-            Vaše zgrade u onoliko sati u koliko Vama odgovara? Želite da
-            napravite svoj plan potovanja?
-          </div>
+        <div className={styles.text}>Prevoz putnika</div>
+        <div className={styles.description}>
+          Želite da Vaše putovanje započne sa praga Vaše kuće ili ispred vrata
+          Vaše zgrade u onoliko sati u koliko Vama odgovara? Želite da napravite
+          svoj plan putovanja?
+        </div>
+        <div className={styles.imagePosition}>
+          <Image
+            src="/paketi.jpg"
+            width={180}
+            height={180}
+            className={styles.image}
+          />
         </div>
       </div>
 
       <div className={styles.service}>
+        <div className={styles.text}>Prevoz paket</div>
+        <div className={styles.description}>
+          Prevoz paketa i robe kombijem Vam može ponuditi sve prednosti
+          profesionalnog prevoza pošiljki i još više od toga. Mi Vam nudimo brz
+          i bezbedan prevoz Vaših paketa, pisama i pošiljki.
+        </div>
+        <div className={styles.imagePosition}>
+          <Image
+            src="/paketi.jpg"
+            width={180}
+            height={180}
+            className={styles.image}
+          />
+        </div>
+      </div>
+
+      {/* <div className={styles.service}>
         <Image
           src="/paketi.jpg"
           width={700}
@@ -40,14 +57,14 @@ const Services = () => {
           className={styles.image}
         />
         <div className={styles.overlay}>
-          <div className={styles.text}>Prevoz paketa</div>
+          <div className={styles.text}>a</div>
           <div className={styles.description}>
             Prevoz paketa i robe kombijem Vam može ponuditi sve prednosti
             profesionalnog prevoza pošiljki i još više od toga. Mi Vam nudimo
             brz i bezbedan prevoz Vaših paketa, pisama i pošiljki.
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
