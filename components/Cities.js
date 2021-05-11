@@ -2,20 +2,45 @@ import styles from "../styles/Home.module.css";
 
 const Cities = () => {
   return (
-    <div className={styles.wrapper}>
+    <div>
       <h4 className={styles.citiesHeading}>
-        Transport u sledeće gradove Nemačke:
+        Ovo su gradovi u kojima vrsimo transport:
       </h4>
-      <ul className={styles.citiesList}>
-        <li className={styles.city}>Berlin</li>
-        <li className={styles.city}>Minhen</li>
-        <br className={styles.breakCity} />
-        <li className={styles.city}>Hamburg</li>
-        <li className={styles.city}>Frankfurt</li>
-        <br className={styles.breakCity} />
-        <li className={styles.city}>Majnhajm</li>
-        <li className={styles.city}>Stutgard</li>
-      </ul>
+      <div className={styles.list}>
+        <ul className={styles.citiesList}>
+          <li className={styles.city}>Munchen</li>
+          <li className={styles.city}>Augsburg</li>
+          <li className={styles.city}>Ulm</li>
+          <li className={styles.city}>Stutgart</li>
+          <li className={styles.city}>Pforzheim</li>
+          <li className={styles.city}>Karlsruhe</li>
+          <li className={styles.city}>Mannheim</li>
+        </ul>
+      </div>
+
+      <div className={styles.list}>
+        <ul className={styles.citiesList}>
+          <li className={styles.city}>Munchen</li>
+          <li className={styles.city}>Augsburg</li>
+          <li className={styles.city}>Ulm</li>
+          <li className={styles.city}>Stutgart</li>
+          <li className={styles.city}>Pforzheim</li>
+          <li className={styles.city}>Karlsruhe</li>
+          <li className={styles.city}>Mannheim</li>
+        </ul>
+      </div>
+
+      <div className={styles.list}>
+        <ul className={styles.citiesList}>
+          <li className={styles.city}>Munchen</li>
+          <li className={styles.city}>Augsburg</li>
+          <li className={styles.city}>Ulm</li>
+          <li className={styles.city}>Stutgart</li>
+          <li className={styles.city}>Pforzheim</li>
+          <li className={styles.city}>Karlsruhe</li>
+          <li className={styles.city}>Mannheim</li>
+        </ul>
+      </div>
     </div>
   );
 };
