@@ -135,4 +135,69 @@
   font-size: 27px;
   text-align: center;
 }
+
+.citiesHeading {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  margin: 3em;
+}
+
+.citiesList {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  width: 55%;
+  margin: 0 auto;
+  padding-bottom: 20em;
+}
+
+.city {
+  list-style-type: none;
+  text-align: center;
+  font-size: 1.5em;
+  float: left;
+  width: 15em;
+  margin: 1em;
+}
+
+.footer {
+  background-color: #1e1e1e;
+  height: 350px;
+}
+
+.footer .column {
+  width: 50%;
+  float: left;
+  padding: 50px 200px;
+}
+
+.footer .column h3 {
+  color: #fed03d;
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer .column p {
+  display: block;
+  color: #8c8989;
+  font-family: "Open Sans", sans-serif;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+
+.footer .column p a {
+  color: #8c8989;
+  text-decoration: none;
+}
+
+.footer .column p a:hover {
+  color: #fed03d;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
 /*# sourceMappingURL=Home.module.css.map */
