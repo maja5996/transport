@@ -4,6 +4,8 @@ import Nav from "../components/Nav";
 import Main from "../components/Main";
 import Services from "../components/Services";
 import Line from "../components/LineBreak";
+import Cities from "../components/Cities";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <Main />
       <Line />
       <Services />
+      <Cities />
+      <Footer />
     </div>
   );
 }
