@@ -38,4 +38,20 @@ body {
     display: flex;
   }
 }
+
+@media (min-width: 400px) and (max-width: 600px) {
+  html {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  html {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 /*# sourceMappingURL=globals.css.map */
