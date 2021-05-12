@@ -30,4 +30,12 @@ body {
 * ::-webkit-scrollbar-thumb:hover {
   background: #4e4e4e;
 }
+
+@media (max-width: 400px) {
+  html {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 /*# sourceMappingURL=globals.css.map */

@@ -68,11 +68,14 @@
 }
 
 .service {
-  border: 1px solid rgb(231, 228, 228);
+  border: 1px solid rgb(245, 242, 242);
   border-radius: 10px;
   background-color: rgb(247, 242, 242);
-  box-shadow: 10px 9px 7px rgb(158, 157, 157);
-
+  box-shadow: 9px 9px 7px rgb(233, 231, 231);
+  // background-color: #e1ebf3;
+  // border: 1px solid #dbdfe6;
+  // border-radius: 10px;
+  // box-shadow: 10px 9px 7px rgb(158, 157, 157);
   margin: 50px;
   min-height: 500px;
   max-width: 465px;
@@ -99,6 +102,7 @@
   overflow: hidden;
   transition: all 3s ease-out;
   font-family: $font-main;
+  color: #006bc0;
   text-align: center;
   top: 0;
   bottom: 0;
@@ -193,21 +197,19 @@
 
 .citiesList {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 .city {
   display: inline;
-  margin: 10px;
+  margin: 6px;
   font-family: $font-main;
 }
 
 .footer {
   background-color: #1e1e1e;
   height: 350px;
-  position: sticky;
-  z-index: 1;
 
   .column {
     width: 50%;
@@ -248,11 +250,27 @@
 }
 
 @media (max-width: 400px) {
-  .main {
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
-    width: 100%;
+  .service {
+    width: 50%;
+    margin: 20px;
+    min-height: 550px;
+    // max-width: 465px;
+
+    .text {
+      font-size: 30px;
+    }
+  }
+
+  .footer {
+    display: flex;
+    margin: 0 auto;
+
+    .column {
+      margin: 0 auto;
+      padding: 0 0;
+      padding-top: 25px;
+      padding-left: 20px;
+    }
   }
 }
 

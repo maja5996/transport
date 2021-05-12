@@ -2,7 +2,7 @@ import styles from "../styles/Home.module.css";
 
 const Cities = () => {
   return (
-    <div>
+    <div className={styles.triListe}>
       <h4 className={styles.citiesHeading}>
         Ovo su gradovi u kojima vrsimo transport:
       </h4>
