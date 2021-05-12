@@ -80,11 +80,11 @@
 }
 
 .service {
-  border: 1px solid #e7e4e4;
+  border: 1px solid #f5f2f2;
   border-radius: 10px;
   background-color: #f7f2f2;
-  -webkit-box-shadow: 10px 9px 7px #9e9d9d;
-          box-shadow: 10px 9px 7px #9e9d9d;
+  -webkit-box-shadow: 9px 9px 7px #e9e7e7;
+          box-shadow: 9px 9px 7px #e9e7e7;
   margin: 50px;
   min-height: 500px;
   max-width: 465px;
@@ -119,6 +119,7 @@
   -webkit-transition: all 3s ease-out;
   transition: all 3s ease-out;
   font-family: "Open Sans", sans-serif;
+  color: #006bc0;
   text-align: center;
   top: 0;
   bottom: 0;
@@ -159,8 +160,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -168,16 +170,13 @@
 
 .city {
   display: inline;
-  margin: 10px;
+  margin: 6px;
   font-family: "Open Sans", sans-serif;
 }
 
 .footer {
   background-color: #1e1e1e;
   height: 350px;
-  position: -webkit-sticky;
-  position: sticky;
-  z-index: 1;
 }
 
 .footer .column {
@@ -227,11 +226,25 @@
 }
 
 @media (max-width: 400px) {
-  .main {
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
-    width: 100%;
+  .service {
+    width: 50%;
+    margin: 20px;
+    min-height: 550px;
+  }
+  .service .text {
+    font-size: 30px;
+  }
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+  }
+  .footer .column {
+    margin: 0 auto;
+    padding: 0 0;
+    padding-top: 25px;
+    padding-left: 20px;
   }
 }
 /*# sourceMappingURL=Home.module.css.map */
