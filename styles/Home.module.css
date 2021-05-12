@@ -152,26 +152,46 @@
   margin: 3em;
 }
 
-.list {
-  margin: 5em;
-}
-
-.citiesList {
+.triListe {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-left: 14em;
+}
+
+.list {
+  margin: 5em;
+  border: 1px solid #f1e9e9;
+  border-radius: 10px;
+  background-color: #fdf9f9;
+  -webkit-box-shadow: 9px 9px 7px #e9e7e7;
+          box-shadow: 9px 9px 7px #e9e7e7;
+}
+
+.citiesList {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
 }
 
 .city {
-  display: inline;
+  display: block;
   margin: 6px;
+  font-size: 1.7em;
   font-family: "Open Sans", sans-serif;
+}
+
+.city:hover {
+  color: #fed03d;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
 }
 
 .footer {
@@ -244,7 +264,92 @@
     margin: 0 auto;
     padding: 0 0;
     padding-top: 25px;
-    padding-left: 20px;
+    padding-left: 10em;
+  }
+  .triListe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 2em;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+  .service {
+    width: 50%;
+    margin: 20px;
+    min-height: 550px;
+  }
+  .service .text {
+    font-size: 35px;
+  }
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+  }
+  .footer .column {
+    margin: 0 auto;
+    padding: 0 0;
+    padding-top: 35px;
+    padding-left: 10em;
+  }
+  .triListe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 2em;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .service {
+    width: 50%;
+    margin: 20px;
+    min-height: 550px;
+  }
+  .service .text {
+    font-size: 35px;
+  }
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+  }
+  .footer .column {
+    margin: 0 auto;
+    padding: 0 0;
+    padding-top: 50px;
+    padding-left: 130px;
+  }
+  .triListe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 3em;
   }
 }
 /*# sourceMappingURL=Home.module.css.map */

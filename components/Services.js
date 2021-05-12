@@ -24,7 +24,7 @@ const Services = () => {
         </div>
         <div className={styles.imagePosition}>
           <Image
-            src="/paketi.jpg"
+            src="/van.jpg"
             width={180}
             height={180}
             className={styles.image}
