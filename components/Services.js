@@ -4,17 +4,6 @@ import Image from "next/image";
 const Services = () => {
   return (
     <div className={styles.services}>
-      {/* <div className={styles.service}>
-        <FaBoxOpen />
-        <h4>Prevoz putnika</h4>
-
-        <p>
-          Želite da Vaše putovanje započne sa praga Vaše kuće ili ispred vrata
-          Vaše zgrade u onoliko sati u koliko Vama odgovara? Želite da napravite
-          svoj plan potovanja?
-        </p>
-      </div> */}
-
       <div className={styles.service}>
         <div className={styles.text}>Prevoz putnika</div>
         <div className={styles.description}>
@@ -48,23 +37,6 @@ const Services = () => {
           />
         </div>
       </div>
-
-      {/* <div className={styles.service}>
-        <Image
-          src="/paketi.jpg"
-          width={700}
-          height={700}
-          className={styles.image}
-        />
-        <div className={styles.overlay}>
-          <div className={styles.text}>a</div>
-          <div className={styles.description}>
-            Prevoz paketa i robe kombijem Vam može ponuditi sve prednosti
-            profesionalnog prevoza pošiljki i još više od toga. Mi Vam nudimo
-            brz i bezbedan prevoz Vaših paketa, pisama i pošiljki.
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };
