@@ -7,7 +7,7 @@ const Cities = () => {
       <h4 className={styles.citiesHeading}>
         Ovo su gradovi u kojima vršimo transport:
       </h4>
-      <div className={styles.triListe}>
+      <div className={styles.listBox}>
         <div className={styles.list}>
           <ul className={styles.citiesList}>
             <motion.li whileHover={{ scale: 1.1 }} className={styles.city}>

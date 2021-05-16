@@ -16,6 +16,10 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.callInfo a {
+  color: inherit;
+}
+
 .callInfo:hover {
   color: white;
   -webkit-transition: 1s;
@@ -152,7 +156,7 @@
   margin: 2em;
 }
 
-.triListe {
+.listBox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -246,6 +250,22 @@
 }
 
 @media (max-width: 400px) {
+  .stickyNav {
+    background-color: #fed03d;
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    width: 100%;
+    height: 7em;
+  }
+  .callInfo {
+    padding: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+  }
   .service {
     width: 50%;
     margin: 20px;
@@ -266,7 +286,7 @@
     padding-top: 25px;
     padding-left: 10em;
   }
-  .triListe {
+  .listBox {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -282,6 +302,22 @@
 }
 
 @media (min-width: 400px) and (max-width: 600px) {
+  .stickyNav {
+    background-color: #fed03d;
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    width: 100%;
+    height: 7em;
+  }
+  .callInfo {
+    padding: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+  }
   .service {
     width: 50%;
     margin: 20px;
@@ -302,7 +338,7 @@
     padding-top: 35px;
     padding-left: 10em;
   }
-  .triListe {
+  .listBox {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -338,7 +374,7 @@
     padding-top: 50px;
     padding-left: 130px;
   }
-  .triListe {
+  .listBox {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -354,7 +390,7 @@
 }
 
 @media (min-width: 1150px) and (max-width: 1250px) {
-  .triListe {
+  .listBox {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
