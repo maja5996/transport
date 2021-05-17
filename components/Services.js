@@ -13,6 +13,7 @@ const Services = () => {
         </div>
         <div className={styles.imagePosition}>
           <Image
+            alt="prevoz putnika"
             src="/van.jpg"
             width={180}
             height={180}
@@ -30,6 +31,7 @@ const Services = () => {
         </div>
         <div className={styles.imagePosition}>
           <Image
+            alt="prevoz paketa"
             src="/paketi.jpg"
             width={180}
             height={180}
